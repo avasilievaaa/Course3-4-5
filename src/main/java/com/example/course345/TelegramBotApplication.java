@@ -2,12 +2,13 @@ package com.example.course345;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
-public class Course345Application {
+@EnableScheduling
+public class TelegramBotApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Course345Application.class, args);
+        SpringApplication.run(TelegramBotApplication.class, args);
     }
-
 }
